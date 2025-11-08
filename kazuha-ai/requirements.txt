@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-multipart
+faster-whisper
+sentence-transformers
+hnswlib
+numpy
+soundfile
+pydub
+pillow
+aiofiles
+python-dotenv
+TTS
+pyttsx3
+gpt4all
+
+# Note: On Windows install torch CPU wheel before faster-whisper: pip install torch --index-url https://download.pytorch.org/whl/cpu

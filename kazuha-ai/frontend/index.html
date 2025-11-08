@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Kazuha-AI</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 12px; }
+    #chat { width: 720px; max-width: 95%; margin-bottom: 8px; border: 1px solid #ddd; padding: 8px; height: 420px; overflow:auto; }
+    .msg.user { color: #222; text-align: right; }
+    .msg.kazuha { color: #111; text-align: left; }
+    .avatar { font-size: 36px; display:inline-block; width:48px; text-align:center; }
+    #controls { margin-top: 8px; }
+    button { padding: 8px 12px; margin-right:6px; }
+    .avatar-img { width:64px; height:64px; vertical-align: middle; }
+    .bubble { display:inline-block; padding:6px 10px; border-radius:8px; background:#f1f1f1; margin-left:8px; }
+  </style>
+</head>
+<body>
+  <h2>Kazuha-AI</h2>
+  <div id="chat"></div>
+  <div id="controls">
+    <input id="text" type="text" placeholder="Type a message..." style="width:560px; padding:8px;">
+    <button id="send">Send</button>
+    <button id="talk">Talk</button>
+    <span id="lang">Lang: auto</span>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
